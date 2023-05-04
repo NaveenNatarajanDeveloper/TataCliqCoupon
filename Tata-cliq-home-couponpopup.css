@@ -1,0 +1,383 @@
+body{
+    margin: 0px;
+    background-color: #ececec;
+}
+
+
+a{
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    /* border: red solid 5px; */
+    background-color: black;
+}
+
+#brand img{
+    float: left;
+    height: 40px;
+    margin-top: 2.5%;
+    margin-left: 2%;
+}
+.menu{
+    float: right;
+    height: 20px;
+    width: 40%;
+    margin-top: 0.5%;
+    /* border: 1px solid red; */
+}
+.menu a{
+    color: white;
+    padding-left: 20px;        
+}
+.menu img{
+    float: right;
+    height: 28px;
+    width: 7%;
+    margin-right: 8%;
+               
+}
+.search{
+    float: left;
+    height: 30px;
+    margin-top: 2.5%;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin-left: 11%;
+    
+}
+select{
+    background-color: gray;
+    height:30px;
+    width: 14%;
+    font-size:20px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid white;
+    
+     
+}
+#brand-select{
+    
+    margin-left: 2%;
+    width:10%;
+    
+}
+
+.search input{
+    height: 30px;
+    float: right;
+    padding: 6px;
+    border: 1px solid white;
+    font-size: 16px;
+    margin-top: 0%;
+    margin-left: 2%;
+    width: 40%;
+    background-color:rgb(74 74 74);
+    color: white;
+    position: absolute;
+    border-radius: 25px;
+    
+    
+}
+#wishlist{
+    float: right;
+    height: 36px;
+    margin-right: 5.5%;
+    
+}
+#mybag{
+    float: right;
+    height: 30px;
+    margin-right: -11.7%;
+        
+    
+}
+/* .homepage{
+    height: 1000px;
+    border: 5px solid red;
+    
+} */
+.banner{
+    height: 285px;
+    /* border: 3px solid green; */
+}
+.banner img{
+    height: 285px;
+    width: 100%;
+    border-radius: 15px;
+      
+}
+#category-list{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.category{
+    height: 100px;
+    width: 8%;
+    margin-left: 1%;
+    margin-top: 1%;
+    /* border: 2px solid red; */
+    float: left;
+    /* border-radius: 5px; */
+}
+.category img{
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.category:hover{
+    transform: scale(1.05);
+}
+
+
+.bankoffer{
+    height: 100px;
+    margin-left: 20%;
+    width: 60%;
+    /* border: 2px solid orange; */
+    display: inline-block;
+    margin-top: 1%;
+}
+
+.bankoffer img{
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.headings{
+    height: 70px;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    /* border: 2px solid red; */
+}
+.mainheading{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    display: block;
+    text-align: center;
+}
+.subheading{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+.items{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 2px solid red; */
+    margin-bottom: 2%;
+      
+}
+
+.itembanner{
+    
+    height: 300px;
+    /* border: 1px solid green; */
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 4%;
+    float: left;
+}
+.itembanner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.itembanner:hover{
+    transform: scale(1.05);
+}
+.brand-ads{
+    height: 300px;
+    width: 72%;
+    margin-left: 14%;
+    /* border: 2px solid red; */
+}
+.brand-ads img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/*Footer Section*/
+footer{
+    
+    background-color: #ffffff;
+    height: 535px;
+    /* border: 2px solid red; */
+    
+}
+
+.tata-trust{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+
+}
+.tata-trust img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.feedback img{
+    width: 30%;
+    height: 100%;
+    margin-left: 1%;
+    float: left;
+      
+}
+
+#feedback-button{
+    height: 100%;
+    margin-left: 1%;
+    width: 15%;
+    /* border: 2px solid white; */
+    float: left;
+    
+}
+
+#feedback-button > a{
+    margin-top: 1.5%;
+    margin-left: 3.5%;
+    position: absolute;
+    border: 2px solid #d91c5a;
+    border-radius: 7.5px;
+    padding: 0.5%;
+    color: #d91c5a;
+    
+}
+
+#feedback-button > a:hover{
+    background-color: #d91c5a;
+    color: white;
+}
+
+
+.footDiv{
+    
+    width: 20%;
+    margin-top: 2%;
+    float: left;
+    /* border: solid green; */
+    color: gray;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer a{
+    color: grey;
+    
+}
+
+.offerings{
+    margin-top: 2%;
+    width: 35%;
+    /* border: 2px solid red; */
+    margin-left: 63%;
+    position: absolute;
+    text-align: justify;
+    line-height: 170%;
+    color: gray;
+}
+
+.social-links{
+    height: 30px;
+    /* border: 2px solid greenyellow; */
+    margin-top: 35%;
+    background-color: #f9f9f9;
+    color: gray;
+      
+}
+
+.social-links img{
+    height: 70%;
+    width: 20px;
+}
+
+.socialmedia{
+    margin-left: 30%;
+    display: inline-block;
+    
+}
+.copyrights{
+    float: right;
+    height: 100%;
+}
+
+/*-----------------dark-light mode-------------------------*/
+
+.my-image img {
+    /* display: inline-block; */
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: -29px;
+    margin-left: 1141px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Dark mode styles */
+body.mydark {
+    background-color: black;
+    color: #ececec;
+}
+
+/*-----------coupon popup-----------------------*/
+
+#content{
+    
+    z-index:1;
+}
+
+#coupon{
+    height:481px;
+    width:640px;
+    background-image: url("https://i.ibb.co/n3d4Zgh/coupon-sale.png");
+    background-repeat: no-repeat;
+    z-index:100;
+    position: absolute;
+    margin-top: -359%;
+    margin-left: 24.5%;
+    visibility: hidden;
+}
+
+
+
+#coupon button{
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 96%;
+    margin-top: 1%;
+    
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
